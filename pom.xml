@@ -58,8 +58,8 @@
                         </sdk>
                         <emulator>
                             <!-- need to change the exsisting avd name -->
-                            <avd>Android4.2</avd>
-                            <wait>180000</wait>
+                            <avd>Jenkins2.3.3</avd>
+                            <wait>60000</wait>
                             <options>-no-window</options>
                         </emulator>
                         <zipalign>
@@ -126,7 +126,7 @@
                                     <pluginExecutionFilter>
                                         <groupId>com.jayway.maven.plugins.android.generation2</groupId>
                                         <artifactId>android-maven-plugin</artifactId>
-                                        <versionRange>[3.2.0,)</versionRange>
+                                        <versionRange>3.6.0</versionRange>
                                         <goals>
                                             <goal>manifest-update</goal>
                                             <goal>emulator-start</goal>
